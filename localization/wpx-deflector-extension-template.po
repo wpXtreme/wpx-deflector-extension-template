@@ -1,0 +1,171 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: wpx Sample\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-11-15 22:50+0100\n"
+"PO-Revision-Date: 2012-11-15 22:50+0100\n"
+"Last-Translator: Giovambattista Fazioli <info@wpxtre.me>\n"
+"Language-Team: wpXtreme, Inc. <info@wpxtre.me>\n"
+"Language: it_IT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../bootstrap.php:185
+msgid ""
+"This plugin has been deactivated. You have to install <a href=\"https://"
+"wpxtre.me\">the wpXtreme free Plugin</a> in order to have this plugin active "
+"and fully enabled."
+msgstr ""
+
+#: ../bootstrap.php:186
+msgid ""
+"This plugin has been deactivated. You have to update <a href=\"https://"
+"wpxtre.me\">wpXtreme free Plugin</a> to the latest version!"
+msgstr ""
+
+#: ../bootstrap.php:187
+msgid ""
+"This plugin has been deactivated, because of an error in initialization of "
+"WPDK framework."
+msgstr ""
+
+#: ../bootstrap.php:188
+msgid ""
+"This plugin has been deactivated, because of an error in getting WPDK "
+"framework path."
+msgstr ""
+
+#: ../classes/admin/wpx__WPXGENESI_SHORT_PLUGIN_NAME_LOWERCASE__-admin.php:72
+#: ../classes/admin/wpx__WPXGENESI_SHORT_PLUGIN_NAME_LOWERCASE__-admin.php:73
+msgid "First Item"
+msgstr ""
+
+#: ../classes/admin/wpx__WPXGENESI_SHORT_PLUGIN_NAME_LOWERCASE__-admin.php:78
+#: ../classes/admin/wpx__WPXGENESI_SHORT_PLUGIN_NAME_LOWERCASE__-admin.php:79
+msgid "Second View"
+msgstr ""
+
+#: ../classes/configuration/settings/wpx__WPXGENESI_SHORT_PLUGIN_NAME_LOWERCASE__-settings-vc.php:33
+#: ../classes/configuration/settings/views/wpx__WPXGENESI_SHORT_PLUGIN_NAME_LOWERCASE__-settings-general-view.php:28
+msgid "General"
+msgstr ""
+
+#: ../classes/configuration/settings/wpx__WPXGENESI_SHORT_PLUGIN_NAME_LOWERCASE__-settings-vc.php:34
+#: ../classes/configuration/settings/views/wpx__WPXGENESI_SHORT_PLUGIN_NAME_LOWERCASE__-settings-second-item-view.php:28
+msgid "Second Item"
+msgstr ""
+
+#: ../classes/configuration/settings/wpx__WPXGENESI_SHORT_PLUGIN_NAME_LOWERCASE__-settings-vc.php:40
+msgid "Settings"
+msgstr ""
+
+#: ../classes/configuration/settings/views/wpx__WPXGENESI_SHORT_PLUGIN_NAME_LOWERCASE__-settings-general-view.php:45
+msgid "Common setting for general view"
+msgstr ""
+
+#: ../classes/configuration/settings/views/wpx__WPXGENESI_SHORT_PLUGIN_NAME_LOWERCASE__-settings-general-view.php:46
+msgid ""
+"Hi, Welcome to CLA (Controls Layout Form). Move the mouse pointer over the "
+"first field."
+msgstr ""
+
+#: ../classes/configuration/settings/views/wpx__WPXGENESI_SHORT_PLUGIN_NAME_LOWERCASE__-settings-general-view.php:51
+#: ../classes/configuration/settings/views/wpx__WPXGENESI_SHORT_PLUGIN_NAME_LOWERCASE__-settings-second-item-view.php:47
+msgid "Hi, I'm the value one"
+msgstr ""
+
+#: ../classes/configuration/settings/views/wpx__WPXGENESI_SHORT_PLUGIN_NAME_LOWERCASE__-settings-general-view.php:52
+msgid "These fields are in same row"
+msgstr ""
+
+#: ../classes/configuration/settings/views/wpx__WPXGENESI_SHORT_PLUGIN_NAME_LOWERCASE__-settings-general-view.php:58
+#: ../classes/configuration/settings/views/wpx__WPXGENESI_SHORT_PLUGIN_NAME_LOWERCASE__-settings-second-item-view.php:56
+msgid "Hi, I'm the value two"
+msgstr ""
+
+#: ../classes/configuration/settings/views/wpx__WPXGENESI_SHORT_PLUGIN_NAME_LOWERCASE__-settings-general-view.php:63
+msgid "Here a second fieldset"
+msgstr ""
+
+#: ../classes/configuration/settings/views/wpx__WPXGENESI_SHORT_PLUGIN_NAME_LOWERCASE__-settings-general-view.php:64
+msgid "Demo WPDKUIControls"
+msgstr ""
+
+#: ../classes/configuration/settings/views/wpx__WPXGENESI_SHORT_PLUGIN_NAME_LOWERCASE__-settings-second-item-view.php:41
+msgid "Common setting for second item"
+msgstr ""
+
+#: ../classes/configuration/settings/views/wpx__WPXGENESI_SHORT_PLUGIN_NAME_LOWERCASE__-settings-second-item-view.php:42
+msgid ""
+"Hi, Welcome to CLA Form Field. Move the mouse pointer over the first field."
+msgstr ""
+
+#: ../classes/configuration/settings/views/wpx__WPXGENESI_SHORT_PLUGIN_NAME_LOWERCASE__-settings-second-item-view.php:48
+msgid "These fields are in different row"
+msgstr ""
+
+#~ msgid "Placeholders"
+#~ msgstr "Segnaposti"
+
+#~ msgid "Environment"
+#~ msgstr "Ambienti"
+
+#~ msgid "Places"
+#~ msgstr "Posti"
+
+#~ msgid "Place information"
+#~ msgstr "Informazioni posto"
+
+#~ msgid "Status"
+#~ msgstr "Stato"
+
+#~ msgid "Name"
+#~ msgstr "Nome"
+
+#~ msgid "Description"
+#~ msgstr "Descrizione"
+
+#~ msgid "All"
+#~ msgstr "Tutti"
+
+#~ msgid "Publish"
+#~ msgstr "Pubblica"
+
+#~ msgid "Trash"
+#~ msgstr "Cestino"
+
+#~ msgid "Edit"
+#~ msgstr "Modifica"
+
+#~ msgid "Restore"
+#~ msgstr "Repristina"
+
+#~ msgid "Delete"
+#~ msgstr "Elimina"
+
+#~ msgid "Icon"
+#~ msgstr "Icona"
+
+#~ msgid "Move to Trash"
+#~ msgstr "Sposta nel cestino"
+
+#~ msgid "Add New"
+#~ msgstr "Aggiungi nuovo"
+
+#~ msgid "New Place"
+#~ msgstr "Nuovo posto"
+
+#~ msgid "Edit Place"
+#~ msgstr "Modifica posto"
+
+#~ msgid "Add"
+#~ msgstr "Aggiungi"
+
+#~ msgid "Update"
+#~ msgstr "Aggiorna"

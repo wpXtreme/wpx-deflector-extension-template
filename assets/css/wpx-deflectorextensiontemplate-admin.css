@@ -1,0 +1,17 @@
+/**
+ * CSS Style Sheet for Backend
+ *
+ * @author        wpXtreme <info@wpxtre.me>
+ * @copyright     Copyright 2013- wpXtreme inc.
+ * @date	      2013-03-15 10:05:09
+ * @version       0.1.0
+ */
+
+/* =====================================================================================================================
+ * General
+ * =====================================================================================================================
+ */
+
+div#wpxdeflectorextensiontemplate-settings-header-view.wpdk-vc-header-icon {
+    background-image: url(images/logo-64x64.png);
+}

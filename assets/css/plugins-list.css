@@ -1,0 +1,26 @@
+/**
+ * This file is useful to change/override the style in WordPress plugin list. You can use this rules
+ * to display a beautiful icon close to plugin name.
+ *
+ * @author          wpXtreme <info@wpxtre.me>
+ * @copyright       Copyright 2013- wpXtreme inc.
+ * @date            2013-03-15 10:05:09
+ * @version         0.1.0
+ */
+
+/* =====================================================================================================================
+ * PLUGIN LIST
+ * =====================================================================================================================
+ */
+
+tr#deflector-extension-template td.plugin-title strong {
+    background-position : left center;
+    background-repeat   : no-repeat;
+    background-image    : url(images/logo-16x16.png);
+    display             : block;
+    width               : auto;
+    height              : 16px;
+    float               : none;
+    margin              : 0 0 6px;
+    padding-left        : 20px;
+}
