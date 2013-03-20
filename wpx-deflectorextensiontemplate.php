@@ -10,7 +10,7 @@
  * @since              1.0.0
  *
  */
-final class WPXDeflectorExtensionTemplate extends WPDKWordPressPlugin {
+final class WPXDeflectorExtensionTemplate extends WPXPlugin {
 
   //---------------------------------------------------------------------------
   // PROPERTIES
@@ -36,13 +36,24 @@ final class WPXDeflectorExtensionTemplate extends WPDKWordPressPlugin {
    *
    * @return WPXDeflectorExtensionTemplate
    */
-  public static function boot( $file ) {
+  public static function boot( $file = '' ) {
     static $instance = null;
-    if( is_null( $instance ) ) {
+    if( is_null( $instance ) && ( ! empty( $file )) ) {
       $instance = new WPXDeflectorExtensionTemplate( $file );
       do_action( __CLASS__ );
     }
     return $instance;
+  }
+
+  /**
+   * Return the singleton instance of WPXDeflectorExtensionTemplate class
+   *
+   * @brief Return the singleton instance of WPXDeflectorExtensionTemplate class
+   *
+   * @return WPXDeflectorExtensionTemplate|NULL
+   */
+  public static function getInstance() {
+    return self::boot();
   }
 
   /**
@@ -268,7 +279,6 @@ final class WPXDeflectorExtensionTemplate extends WPDKWordPressPlugin {
     //------------------------------------------------------------------
     // NOTE: if you're including class definitions, don't insert any require|include statement here!
     // Follow SPL autoload login embedded instead.
-    // See ... for details about how to proceed with this embedded loading logic.
     //------------------------------------------------------------------
 
     $includes = array(
